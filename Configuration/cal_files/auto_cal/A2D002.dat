@@ -1,0 +1,272 @@
+
+# auto_cal results...
+# temperature: 37.385
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2014 Aug 14 16:21:41     2        0   -0.38068     1.113          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 39.402
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2014 Aug 14 16:27:59     2        0   -0.38092    1.1125          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 37.95
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2014 Aug 17 14:27:33     2        0   -0.38065    1.1131          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.367
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2014 Aug 17 15:16:37     2        0   -0.37989    1.1136          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.947
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2014 Aug 17 15:32:00     2        0   -0.38041    1.1134          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 35.439
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Jan 13 15:23:51     2        0   -0.38028    1.1138          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 33.001
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Jan 21 15:00:02     2        0   -0.38036    1.1146          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 24.023
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Jan 23 16:30:00     2        0   -0.38105    1.1179          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 24.208
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Jan 23 16:36:20     2        0   -0.38067    1.1178          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 40.593
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Jan 24 18:08:37     2        0   -0.38149    1.1121          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 39.241
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Mar 05 01:00:50     2        0   -0.38176    1.1127          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 30.656
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 May 18 18:59:48     2        0    -0.3802    1.1155          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 28.277
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 May 18 18:45:59     2        0   -0.37976    1.1164          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.024
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 May 19 14:58:39     2        0   -0.38065    1.1138          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 39.139
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 May 19 22:13:01     2        0    -0.3809    1.1126          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 41.891
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Sep 10 14:49:34     2        0   -0.38217     1.112          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 41.693
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Sep 10 14:53:00     2        0   -0.38163    1.1121          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 45.96
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Sep 10 17:05:27     2        0   -0.38369    1.1108          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 45.167
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Sep 10 17:21:02     2        0     -0.383    1.1111          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 46.688
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2015 Dec 01 16:17:40     4        0   -0.19149    1.1125  -0.084841    1.0933   -0.16739    1.1087   -0.16374    1.1131   -0.20454    1.1248  -0.067051    1.0962   -0.17555     1.109   -0.16282    1.1091
+
+# auto_cal results...
+# temperature: 46.3
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Sep 18 20:56:07     1        1          0         1   -0.10427    1.0915          0         1          0         1          0         1          0         1          0         1          0         1
+2017 Sep 18 20:56:27     2        0   -0.38523     1.111          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 32.925
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Sep 21 14:10:42     1        1          0         1   -0.10249    1.0956          0         1          0         1          0         1          0         1          0         1          0         1
+2017 Sep 21 14:11:02     2        0   -0.38083    1.1151          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 33.807
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Sep 21 14:17:26     1        1          0         1   -0.10235    1.0954          0         1          0         1          0         1          0         1          0         1          0         1
+2017 Sep 21 14:17:47     2        0   -0.38025    1.1147          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 32.934
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Sep 29 13:55:25     1        1          0         1   -0.10236    1.0954   -0.25538    1.1112          0         1          0         1          0         1          0         1          0         1
+2017 Sep 29 13:55:45     2        0   -0.38088    1.1148          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.642
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Sep 29 16:26:26     1        1          0         1   -0.10208    1.0943   -0.25572    1.1101          0         1          0         1          0         1          0         1          0         1
+2017 Sep 29 16:26:47     2        0   -0.38138    1.1138          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 26.859
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Oct 03 15:49:28     1        1          0         1   -0.10225    1.0972   -0.25485    1.1133          0         1          0         1          0         1          0         1          0         1
+2017 Oct 03 15:49:48     2        0   -0.38078    1.1167          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 28.936
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2017 Oct 03 15:55:16     1        1          0         1   -0.10164    1.0968   -0.25552    1.1125          0         1          0         1          0         1          0         1          0         1
+2017 Oct 03 15:55:37     2        0   -0.38117    1.1163          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 39.198
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Apr 13 20:08:41     4        0   -0.19104     1.113  -0.082996    1.0934   -0.16708    1.1092          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.944
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jun 18 20:12:52     1        1          0         1   -0.10136    1.0942          0         1   -0.26793     1.114          0         1          0         1          0         1          0         1
+2018 Jun 18 20:13:13     2        0   -0.38192    1.1138          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 37.157
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 13 14:00:39     1        1          0         1   -0.10186    1.0941          0         1   -0.26827    1.1137          0         1          0         1          0         1          0         1
+2018 Jul 13 14:01:00     2        0   -0.38127    1.1135          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 38.794
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 16 17:34:30     1        1          0         1   -0.10189    1.0937          0         1   -0.26797    1.1134          0         1          0         1          0         1          0         1
+2018 Jul 16 17:34:51     2        0   -0.38075    1.1132          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 42.482
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 17 16:11:32     1        1          0         1   -0.10284    1.0927          0         1   -0.26874    1.1125          0         1          0         1          0         1          0         1
+2018 Jul 17 16:11:53     2        0   -0.38213     1.112          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 43.923
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 20 15:26:31     1        1          0         1   -0.10351     1.092          0         1   -0.27005    1.1116          0         1          0         1          0         1          0         1
+2018 Jul 20 15:26:52     2        0   -0.38265    1.1113          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.343
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 24 17:09:47     1        1          0         1   -0.10111    1.0951          0         1   -0.26709    1.1147          0         1          0         1          0         1          0         1
+2018 Jul 24 17:10:08     2        0   -0.38166    1.1146          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 35.018
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 26 17:17:31     1        1          0         1   -0.10144    1.0948          0         1   -0.26635    1.1146          0         1          0         1          0         1          0         1
+2018 Jul 26 17:17:52     2        0   -0.37999    1.1142          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.294
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Jul 30 16:51:41     1        1          0         1    -0.1036    1.0944          0         1   -0.26678     1.114          0         1          0         1          0         1          0         1
+2018 Jul 30 16:52:02     2        0    -0.3809    1.1138          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.893
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 01 19:04:04     1        1          0         1    -0.1018    1.0949          0         1   -0.26722    1.1145          0         1          0         1          0         1          0         1
+2018 Aug 01 19:04:25     2        0   -0.38021    1.1143          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 31.464
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 02 16:33:50     1        1          0         1   -0.10182     1.096          0         1   -0.26729    1.1155          0         1          0         1          0         1          0         1
+2018 Aug 02 16:34:11     2        0   -0.38077    1.1153          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 36.552
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 06 18:54:10     1        1          0         1    -0.1005    1.0944          0         1   -0.26717    1.1139          0         1          0         1          0         1          0         1
+2018 Aug 06 18:54:31     2        0   -0.38041    1.1137          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.752
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 09 16:13:39     1        1          0         1   -0.10185    1.0948          0         1   -0.26755    1.1143          0         1          0         1          0         1          0         1
+2018 Aug 09 16:14:00     2        0   -0.37991     1.114          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.228
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 19 16:00:47     1        1          0         1   -0.10242    1.0951          0         1   -0.26742    1.1146          0         1          0         1          0         1          0         1
+2018 Aug 19 16:01:07     2        0   -0.38093    1.1143          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.325
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Aug 23 17:58:50     1        1          0         1   -0.10156    1.0953          0         1    -0.2659    1.1146          0         1          0         1          0         1          0         1
+2018 Aug 23 17:59:11     2        0   -0.38073    1.1145          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 37.115
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Sep 19 15:46:25     1        1          0         1   -0.10242    1.0943          0         1   -0.26719    1.1138          0         1          0         1          0         1          0         1
+2018 Sep 19 15:46:46     2        0   -0.38109    1.1136          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 35.419
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Sep 20 14:29:12     1        1          0         1   -0.10288    1.0947          0         1   -0.26716    1.1141          0         1          0         1          0         1          0         1
+2018 Sep 20 14:29:33     2        0   -0.38094     1.114          0         1          0         1          0         1          0         1          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 31.567
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2018 Oct 11 19:52:36     4        0   -0.19147    1.1126  -0.083757    1.0932   -0.16773    1.1089   -0.16102    1.1126   -0.20342    1.1244  -0.067341    1.0963    -0.1766     1.109   -0.16332    1.1092
+
+# auto_cal results...
+# temperature: 29.438
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2020 Nov 10 16:09:44     1        1          0         1   -0.10157    1.0961          0         1          0         1          0         1          0         1          0         1          0         1
+2020 Nov 10 16:09:55     2        0     -0.379    1.1153          0         1   -0.33257    1.1116          0         1   -0.40357    1.1272          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 30.487
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2020 Nov 11 18:10:45     1        1          0         1   -0.10078    1.0961          0         1          0         1          0         1          0         1          0         1          0         1
+2020 Nov 11 18:10:56     2        0    -0.3801    1.1156          0         1   -0.33236    1.1117          0         1   -0.40363    1.1273          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 34.982
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2020 Nov 13 16:01:15     1        1          0         1   -0.10117    1.0947          0         1          0         1          0         1          0         1          0         1          0         1
+2020 Nov 13 16:01:27     2        0   -0.38068    1.1141          0         1   -0.33323    1.1103          0         1   -0.40562     1.126          0         1          0         1          0         1
+
+# auto_cal results...
+# temperature: 29.875
+#  Date              Gain  Bipolar  CH0-off   CH0-slope  CH1-off   CH1-slope  CH2-off   CH2-slope  CH3-off   CH3-slope  CH4-off   CH4-slope  CH5-off   CH5-slope  CH6-off   CH6-slope  CH7-off   CH7-slope
+2020 Nov 20 15:48:01     1        1          0         1   -0.10112    1.0961          0         1          0         1          0         1          0         1          0         1          0         1
+2020 Nov 20 15:48:13     2        0   -0.37979    1.1156          0         1   -0.33252    1.1118          0         1    -0.4039    1.1273          0         1          0         1          0         1

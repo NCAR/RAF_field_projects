@@ -6,7 +6,7 @@
    <serialSensor ID="UHSASCU" baud="9600" class="raf.UHSAS_Serial" databits="8" parity="none" stopbits="1">
         <parameter name="HSKP_SCALE" type="int" value="64000 12800 6400 6400 12800 6400 6400 12800 6400  6400 12800 6400"/>
         <sample id="1" rate="2">
-            <variable length="100" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
+            <variable length="99" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
             <variable longname="Total Counts" name="UHSAS_CNTS" units="#/sec"/>
             <variable longname="UHSAS Background Scatter" name="USCAT" units="V"/>
             <variable longname="UHSAS Laser Current" name="UCURR" units="V"/>
@@ -47,7 +47,7 @@
 <!-- 5.89   825.55   27.54   5299  18015    290    117\r\n -->
          <sample id="1" rate="1" scanfFormat="%f%f%f%f%f%f%f">
              <variable name="H2OR" units="g/m^3"/>
-             <variable name="PDLR" units="mb"/>
+             <variable name="PTDLR" units="mb"/>
              <variable name="TTDLR" units="degC"/>
              <variable name="TDLsignal" units="cnts"/>
              <variable name="TDLline" units="cnts"/>
@@ -68,7 +68,7 @@
 <!--   1.872 1003.75  45.08  28.36  43.82   5154   9965 274  -4118 0.960\r\n -->
          <sample id="1" rate="3" scanfFormat="%f%f%f%f%f%f%f%f%f%f">
              <variable longname="TDL Water Concentration" name="H2OR" units="g/m^3"/>
-             <variable longname="TDL Sample cell pressure" name="PDLR" units="mb"/>
+             <variable longname="TDL Sample cell pressure" name="PTDLR" units="mb"/>
              <variable longname="TDL Sample cell Temperature" name="TTDLR" units="degC"/>
              <variable longname="TDL Enclosure Temperature" name="TTDLencl" units="degC"/>
              <variable longname="TDL TEC heatsink temperature" name="TTDLtec" units="degC"/>
@@ -305,7 +305,6 @@
 
 <!-- These variables are sent to LabView over the CVIOutput socket -->
             <sample id="10000" rate="1">
-                <variable name="CVTAS"/>
                 <variable name="CNT1"/>
                 <variable name="CVF1"/>
                 <variable name="CVFX0"/>
@@ -324,7 +323,7 @@
                 <variable name="CVTCN"/>
                 <variable name="CVTAI"/>
                 <variable name="H2OR"/>
-                <variable name="PDLR"/>
+                <variable name="PTDLR"/>
                 <variable name="TTDLR"/>
                 <variable name="TDLsignal"/>
                 <variable name="TDLlaser"/>
@@ -342,6 +341,10 @@
                 <variable name="O18_CVIP"/>
                 <variable name="DEUT_CVIP"/>
             </sample>
+            <!-- to see this output if a PC is not available, change
+                 the address to localhost, and listen on tcp/30005 with netcat:
+                    nc -l -p 30005
+            -->
             <output class="raf.CVIOutput">
                 <socket address="cvi-pc-2" block="false" port="30005" type="client"/>
             </output>

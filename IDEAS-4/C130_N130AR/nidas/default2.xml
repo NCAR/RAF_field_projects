@@ -617,7 +617,7 @@
                 <linear intercept="0.0" slope="0.1" units=""/>
             </variable>
             <variable longname="SPP-100 AtoD Converter Overflow/Overrange" name="OVFLW" units=""/>
-            <variable length="31" longname="SPP-100 Raw Accumulation (per cell) - DMT" name="AS100" units="count"/>
+            <variable length="30" longname="SPP-100 Raw Accumulation (per cell) - DMT" name="AS100" units="count"/>
             <variable longname="SPP-100 Time between last sample and this sample" name="DELTAT" units="msec"/>
         </sample>
         <prompt rate="10" string="\x1b\x02\x1d\x00"/>
@@ -642,7 +642,7 @@
                 <poly coefs="-729.57 0.87564 -3.5197e-4 4.750368e-8" units="std cm3/s"/>
             </variable>
             <variable longname="SPP-200 Detector Temperature" name="PTMP" units="deg_C"/>
-            <variable length="31" longname="SPP-200 (PCASP) Raw Accumulation (per cell) - DMT" name="AS200" units="count"/>
+            <variable length="30" longname="SPP-200 (PCASP) Raw Accumulation (per cell) - DMT" name="AS200" units="count"/>
             <variable longname="SPP-200 Time between last sample and this sample" name="DELTAT" units="msec"/>
         </sample>
         <prompt rate="10" string="\x1b\x02\x1d\x00"/>
@@ -660,7 +660,7 @@
         <sample id="1">
             <variable longname="SPP-300 Laser Reference Voltage" name="FREF3" units="V"/>
             <variable longname="SPP-300 Housekeeping Data" name="FTMP3" units="deg_C"/>
-            <variable length="31" longname="SPP-300 (FSSP-300) Raw Accumulation (per cell) - DMT" name="AS300" units="count"/>
+            <variable length="30" longname="SPP-300 (FSSP-300) Raw Accumulation (per cell) - DMT" name="AS300" units="count"/>
             <variable longname="SPP-300 Time between last sample and this sample" name="DELTAT" units="msec"/>
         </sample>
         <prompt rate="10" string="\x1b\x02\x1d\x00"/>
@@ -700,7 +700,7 @@
             <variable longname="CDP Sizer Dynamic Threshold" name="CDPSTHRSH" units="unk"/>
             <variable longname="CDP AtoD Converter Overflow/Overrange" name="OVFLW" units="count"/>
 
-            <variable length="31" longname="CDP Raw Accumulation (per cell)" name="ACDP" units="count"/>
+            <variable length="30" longname="CDP Raw Accumulation (per cell)" name="ACDP" units="count"/>
             <variable longname="CDP Time between last sample and this sample" name="DELTAT" units="msec"/>
         </sample>
         <prompt rate="10" string="\x1b\x02\x1d\x00"/>
@@ -739,7 +739,7 @@
             <variable longname="CDP Sizer Dynamic Threshold" name="CDPSTHRSH" units="unk"/>
             <variable longname="CDP AtoD Converter Overflow/Overrange" name="OVFLW" units="count"/>
 
-            <variable length="31" longname="CDP Raw Accumulation (per cell)" name="ACDP" units="count"/>
+            <variable length="30" longname="CDP Raw Accumulation (per cell)" name="ACDP" units="count"/>
             <variable longname="CDP Time between last sample and this sample" name="DELTAT" units="msec"/>
         </sample>
         <prompt rate="10" string="\x1b\x02\x1d\x00"/>
@@ -747,7 +747,7 @@
     <serialSensor ID="UHSAS" baud="115200" class="raf.UHSAS_Serial" databits="8" parity="none" stopbits="1">
         <parameter name="HSKP_SCALE" type="int" value="16000 16000 13104 16000 16000 13104 16000 16000 13104 13104 16000 8000"/>
         <sample id="1" rate="10">
-            <variable length="100" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
+            <variable length="99" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
             <variable longname="UHSAS Background Scatter" name="USCAT" units="V"/>
             <variable longname="UHSAS Laser Current" name="UCURR" units="V"/>
             <variable longname="UHSAS Sample Flow" name="USMPFLW" units="V">
@@ -789,7 +789,7 @@
     <serialSensor ID="UHSAS_CU" baud="38400" class="raf.UHSAS_Serial" databits="8" parity="none" stopbits="1">
         <parameter name="HSKP_SCALE" type="int" value="64000 12800 6400 6400 12800 6400 6400 12800 6400  6400 12800 6400"/>
         <sample id="1" rate="2">
-            <variable length="100" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
+            <variable length="99" longname="UHSAS Raw Count Histogram" name="AUHSAS" units="count"/>
             <variable longname="Total Counts" name="UHSAS_CNTS" units="#/sec"/>
             <variable longname="UHSAS Background Scatter" name="USCAT" units="V"/>
             <variable longname="UHSAS Laser Current" name="UCURR" units="V"/>
@@ -861,7 +861,7 @@
         <prompt rate="5" string="SIG?\r"/>
         <message length="0" position="end" separator="\r"/>
     </serialSensor>
-    <sensor ID="ACDFO3" class="raf.UDPSocketSensor" devicename="inet::5555">
+    <sensor ID="ACDFO3" class="UDPSocketSensor" devicename="inet::5555">
         <sample id="1" rate="10" scanfFormat="O3,%f">
             <variable longname="Fast Response Ozone Mixing Ratio" name="FO3" units="ppbv"/>
         </sample>
@@ -1148,7 +1148,7 @@
             </sample>
         </sensor>
 
-        <sensor ID="PARCELS" class="raf.UDPSocketSensor" devicename="inet::41003" id="1600">
+        <sensor ID="PARCELS" class="UDPSocketSensor" devicename="inet::41003" id="1600">
         <!--  Don't uncomment until CharacterSensor can handle strings or we change PARCEL infor to numeric
           <sample id="1" rate="1" scanfFormat="PARCEL,%*sT%*s,%s">
               <variable longname="UHSAS Accumulation" name="UACC" units="sec"/>
@@ -1156,7 +1156,7 @@
         -->
         </sensor>
 
-        <socketSensor ID="JAVAD_GPS" class="GPS_NMEA_Serial" devicename="usock::41002" id="1400" suffix="_JVD">
+        <serialSensor ID="JAVAD_GPS" class="GPS_NMEA_Serial" devicename="usock::41002" id="1400" suffix="_JVD">
             <!-- GGA record -->
             <sample id="1" rate="10">
                 <variable longname="Reference GPS seconds of day" name="GGSECSDAY" units="sec"/>
@@ -1184,7 +1184,7 @@
                 <variable longname="True Heading Angle" name="THDG" units="degree_T"/>
             </sample>
             <message length="0" position="end" separator="\r\n"/>
-        </socketSensor>
+        </serialSensor>
         <output class="RawSampleOutputStream">
             <socket type="mcrequest"/>
         </output>
@@ -1263,7 +1263,7 @@
             </sample>
         </serialSensor>
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D003.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D003.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="100">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1305,7 +1305,7 @@
             </sample>
         </sensor>
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d1" id="220">
-            <calfile file="A2D002.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D002.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="10">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1332,17 +1332,17 @@
         <serialSensor IDREF="PIC_H2O" devicename="/dev/ttyS6" id="70" suffix="_CU"/>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D1605.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D1605.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="100">
                 <parameter name="filter" type="string" value="boxcar"/>
                 <parameter name="numpoints" type="int" value="5"/>
-                <variable longname="Recovery Temperature, Deiced Left, HARCO" name="RTHL1" units="V">
+                <variable longname="Recovery Temperature, Deiced Left, HARCO" name="RTH1" units="V">
                     <parameter name="gain" type="float" value="4"/> 
                     <parameter name="bipolar" type="bool" value="false"/>
                     <poly coefs="-92.721 28.685 -0.080337" units="deg_C"/>
                 </variable>
-                <variable longname="Recovery Temperature, Deiced Left, HARCO" name="RTHL2" units="V">
+                <variable longname="Recovery Temperature, Deiced Left, HARCO" name="RTH2" units="V">
                     <parameter name="gain" type="float" value="4"/> 
                     <parameter name="bipolar" type="bool" value="false"/>
                     <poly coefs="-93.542 28.749 -0.087033" units="deg_C"/>
@@ -1385,7 +1385,7 @@
         </sensor>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d1" id="220">
-            <calfile file="A2D1606.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D1606.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="10">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1458,7 +1458,7 @@
         </serialSensor>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D1607.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D1607.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="10">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1496,7 +1496,7 @@
         </sensor>
 
         <sensor class="raf.DSMAnalogSensor"    devicename="/dev/ncar_a2d1" id="220">
-            <calfile path="$PROJ_DIR/Configuration/raf/cal_files/A2D" file="A2D1609.dat"/>
+            <calfile path="$PROJ_DIR/Configuration/cal_files/A2D" file="A2D1609.dat"/>
             <parameter name="rate" value="500" type="int"/>
             <sample id="1" rate="100">
                 <parameter name="filter" value="boxcar" type="string"/>
@@ -1538,7 +1538,7 @@
 
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D1709.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D1709.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="100">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1568,7 +1568,7 @@
         </sensor>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d1" id="220">
-            <calfile file="A2D017.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D017.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="100">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1619,7 +1619,7 @@
         <serialSensor IDREF="TDLH2O" devicename="/dev/ttyS9" id="500" suffix="_MC"/>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D1711.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D1711.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="10">
                 <parameter name="filter" type="string" value="boxcar"/>
@@ -1650,7 +1650,7 @@
         </sensor>
 
         <sensor class="raf.DSMAnalogSensor" devicename="/dev/ncar_a2d0" id="200">
-            <calfile file="A2D013.dat" path="$PROJ_DIR/Configuration/raf/cal_files/A2D"/>
+            <calfile file="A2D013.dat" path="$PROJ_DIR/Configuration/cal_files/A2D"/>
             <parameter name="rate" type="int" value="500"/>
             <sample id="1" rate="100">
                 <parameter name="filter" type="string" value="boxcar"/>

@@ -1,0 +1,17 @@
+#
+# dateFormat="%Y %b %d %H:%M:%S"
+# timeZone = "UTC"
+#
+# Calibration done in the NRL laboratory and provided to us
+#  Serial Number: 120381
+#
+2013 Jan 1 00:00:00	0.0    314.53 
+
+2015 Jun 16 00:00:00	0.0    309.25  # tbaltzer by hand S/N: 120381
+
+2017 Dec 21 00:00:00	0.0    314.97  # from Julie Haggerty
+
+# Radiometer replaced after SOCRATES:rf01.
+2018 Jan 17 00:00:00	0.0    324.79  # from Julie Haggerty
+
+2019 Jul 23 00:00:00    0.0    314.72  # from Julie Haggerty
